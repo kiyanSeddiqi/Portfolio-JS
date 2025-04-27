@@ -1,0 +1,85 @@
+@import './mixin.scss';
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 5fr 0.5fr;
+  grid-column-gap: 1.5rem;
+}
+
+.section__title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--color-title);
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+
+.mb-80 {
+  margin-bottom: 8rem;
+}
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.bd-radius {
+  border-radius: var(--border-radius);
+}
+
+.theme-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 2rem;
+  width: 4rem;
+  padding: 1rem 0.6rem;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--page-bg);
+  transition: var(--transition);
+
+  &:hover {
+    box-shadow: 0 0 0.5rem #000;
+  }
+
+  &::before {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background-color: var(--switch-bg-active);
+    position: absolute;
+    transform: translateY(var(--switch-pos));
+    transition: var(--transition);
+    z-index: 0;
+  }
+  & span {
+    z-index: 1;
+  }
+  &__icon {
+    font-size: 1.8rem;
+  }
+}
+
+.btn {
+  border: none;
+  display: block;
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--color-black);
+  transition: var(--transition);
+  border-radius: var(--border-radius);
+  text-transform: uppercase;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  &:hover {
+    @include hoverEffect;
+    background-color: var(--color-primary-light);
+  }
+  &:focus {
+    outline: 2px solid var(--color-primary);
+  }
+}

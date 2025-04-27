@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beta Portfolio</title>
+    <link rel="shortcut icon" href="./img/favicon-96.png" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./assets/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <div class="main-nav__logo">
+            <h4>Portfolio</h4>
+          </div>
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Home</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#service" class="main-nav__link">services</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#portfolio" class="main-nav__link">portfolio</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#price-plan" class="main-nav__link">prices</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#contact" class="main-nav__link">contact</a>
+            </li>
+          </ul>
+          <span class="main-nav__theme-switcher">
+            <i class="fa-sharp fa-solid fa-moon-over-sun main-nav__theme-switcher-icon"></i>
+          </span>
+        </div>
+        <div class="main-nav__hamburger-menu">
+          <div>
+            <div class="bar bar--1"></div>
+            <div class="bar bar--2"></div>
+            <div class="bar bar--3"></div>
+          </div>
+        </div>
+      </nav>
+      <aside class="info-panel bd-radius">
+        <div class="info-panel__arrow" title="More info">
+          <button class="info-panel__arrow-btn">
+            <span class="info-panel__arrow--right">
+              <i class="fa-solid fa-chevrons-right info-panel__arrow-icon"></i>
+            </span>
+            <span class="info-panel__arrow--left">
+              <i class="fa-solid fa-chevrons-left info-panel__arrow-icon"></i>
+            </span>
+          </button>
+        </div>
+        <div class="info-panel__container">
+          <div class="info-panel__user-profile">
+            <div class="info-panel__img-wrapper">
+              <img class="info-panel__user-img" src="./img/user-profile.jpg" alt="user portrait" />
+              <span class="info-panel__user-status"></span>
+            </div>
+            <h3 class="info-panel__username">Kiyan Seddiqi</h3>
+            <h4 class="info-panel__userjob">Font-End Developer</h4>
+            <div class="info-panel__social-media">
+              <span title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </span>
+              <span title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+              <span title="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+              <span title="Linked in">
+                <i class="fa-brands fa-linkedin"></i>
+              </span>
+              <span title="Youtube">
+                <i class="fa-brands fa-youtube"></i>
+              </span>
+              <span title="Dribble">
+                <i class="fa-brands fa-dribbble"></i>
+              </span>
+            </div>
+          </div>
+          <div class="info-panel__user-detail">
+            <div>
+              <h5>Age:</h5>
+              <p>32</p>
+            </div>
+            <div>
+              <h5>Education:</h5>
+              <p>Bachelor</p>
+            </div>
+            <div>
+              <h5>Freelance:</h5>
+              <p>Available</p>
+            </div>
+            <div>
+              <h5>Address:</h5>
+              <p>Mashhad,Iran</p>
+            </div>
+          </div>
+          <div class="info-panel__langs">
+            <h3 class="info-panel__title">Languages</h3>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>Persian</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="100"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>English</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>Spanish</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="60"></div>
+              </div>
+            </div>
+          </div>
+          <div class="info-panel-skill">
+            <h3 class="info-panel__title">Skills</h3>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>Html</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>CSS</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>Js</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>PHP</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="75"></div>
+              </div>
+            </div>
+            <div class="info-panel__progress-box">
+              <div class="info-panel__progress-txt">
+                <p>WordPress</p>
+                <span>0%</span>
+              </div>
+              <div class="info-panel__progress-container">
+                <div class="info-panel__progressbar" data-percent="85"></div>
+              </div>
+            </div>
+          </div>
+          <div class="info-panel__ex-skill">
+            <h3 class="info-panel__title">Extra Skills</h3>
+            <div class="info-panel__ex-skill-content">
+              <span>
+                <i class="fa-brands fa-bootstrap fa-fw info-panel__ex-skill-icon"> </i>
+              </span>
+              <p>Bootstrap</p>
+            </div>
+            <div class="info-panel__ex-skill-content">
+              <span>
+                <i class="fa-brands fa-sass fa-fw info-panel__ex-skill-icon"></i>
+              </span>
+              <p>Sass , Less , Stylus</p>
+            </div>
+            <div class="info-panel__ex-skill-content">
+              <span>
+                <i class="fa-brands fa-react fa-fw info-panel__ex-skill-icon"></i>
+              </span>
+              <p>React</p>
+            </div>
+            <div class="info-panel__ex-skill-content">
+              <span>
+                <i class="fa-brands fa-github fa-fw info-panel__ex-skill-icon"></i>
+              </span>
+              <p>Git , Github</p>
+            </div>
+          </div>
+          <div class="info-panel__cv">
+            <button class="info-panel__cv-btn btn">
+              Download CV
+              <span>
+                <i class="fa-solid fa-down-to-bracket info-panel__cv-icon"> </i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </aside>
+      <main class="main-content">
+        <section class="hero hero-section bd-radius">
+          <div class="hero__context">
+            <h1 class="hero__title">
+              I’m Kiyan Seddiqi,<br />
+              <span>Front - End</span> Developer
+            </h1>
+            <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum.</p>
+            <button class="hero__btn btn">
+              hire me
+              <span class="hero__btn-icon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+          <div class="hero__img-box">
+            <img class="hero__img" src="./img/user-image.png" alt="user photo" />
+          </div>
+        </section>
+        <section class="service mb-80" id="service">
+          <h2 class="section__title">my services</h2>
+          <div class="service__container">
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/web-develop.svg" alt="web development icon" />
+              </div>
+              <h4 class="service__item-title">web development</h4>
+              <p class="service__item-text">blog, e-commerce</p>
+            </div>
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/ui-ux design.svg" alt="ui/ux design icon" />
+              </div>
+              <h4 class="service__item-title">UI/UX design</h4>
+              <p class="service__item-text">Mobile app, website design</p>
+            </div>
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/Microphone.svg" alt="Microphone icon" />
+              </div>
+              <h4 class="service__item-title">sound design</h4>
+              <p class="service__item-text">Voice Over, Beat Making</p>
+            </div>
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/game-develop.svg" alt="game-development icon" />
+              </div>
+              <h4 class="service__item-title">game design</h4>
+              <p class="service__item-text">Character Design & Objects</p>
+            </div>
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/Photographer.svg" alt="Photographer icon" />
+              </div>
+              <h4 class="service__item-title">photography</h4>
+              <p class="service__item-text">portrait, product photography</p>
+            </div>
+            <div class="service__item-box bd-radius">
+              <div class="service__img-container">
+                <img class="service__img" src="./img/Icons/advertise.svg" alt="advertising icon" />
+              </div>
+              <h4 class="service__item-title">advertising</h4>
+              <p class="service__item-text">Logo design, Branding</p>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio mb-80" id="portfolio">
+          <h2 class="section__title">portfolio</h2>
+          <div class="portfolio__category">
+            <ul class="portfolio__category-list">
+              <li class="portfolio__category-item portfolio__category-item--active" data-name="all">all categories</li>
+              <li class="portfolio__category-item" data-name="ui">UI design</li>
+              <li class="portfolio__category-item" data-name="web">Web Templates</li>
+              <li class="portfolio__category-item" data-name="logo">Logo</li>
+              <li class="portfolio__category-item" data-name="brand">Branding</li>
+            </ul>
+          </div>
+          <div class="portfolio__container">
+            <div class="portfolio__img-box" data-name="ui">
+              <img src="./img/Portfolio-img/ui 1-1x.jpg" alt="sample photo" class="portfolio__img" id="ui-1" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="ui-1">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <span>
+                  <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                </span>
+                <span><i class="fa-regular fa-fw fa-heart portfolio__icon"></i></span>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="brand">
+              <img src="./img/Portfolio-img/brand1-1x.jpg" alt="sample photo" class="portfolio__img" id="brand-1" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="brand-1">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="web">
+              <img src="./img/Portfolio-img/web1-1x.jpg" alt="sample photo" class="portfolio__img" id="web-1" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="web-1">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="web">
+              <img src="./img/Portfolio-img/web2-1x.jpg" alt="sample photo" class="portfolio__img" id="web-2" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="web-2">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="logo">
+              <img src="./img/Portfolio-img/logo-1x.jpg" alt="sample photo" class="portfolio__img" id="logo-1" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="logo-1">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="brand">
+              <img src="./img/Portfolio-img/brand2-1x.jpg" alt="sample photo" class="portfolio__img" id="brand-2" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="brand-2">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="ui">
+              <img src="./img/Portfolio-img/ui 2-1x.jpg" alt="sample photo" class="portfolio__img" id="ui-2" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="ui-2">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="web">
+              <img src="./img/Portfolio-img/web3-1x.jpg" alt="sample photo" class="portfolio__img" id="web-3" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="web-3">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__img-box" data-name="ui">
+              <img src="./img/Portfolio-img/ui 3-1x.jpg" alt="sample photo" class="portfolio__img" id="ui-3" />
+              <div class="portfolio__img-btns">
+                <span class="portfolio__download-btn" data-download="ui-3">
+                  <i class="fa-regular fa-fw fa-arrow-down-to-line portfolio__icon"></i>
+                </span>
+                <i class="fa-regular fa-fw fa-magnifying-glass-plus portfolio__icon portfolio__img-magnifier"> </i>
+                <i class="fa-regular fa-fw fa-heart portfolio__icon"></i>
+              </div>
+            </div>
+            <div class="portfolio__preview">
+              <span class="portfolio__preview-close">
+                <i class="fa-sharp fa-regular fa-square-xmark portfolio__preview-close-icon"></i>
+              </span>
+              <img src="" alt="preview photo" class="portfolio__preview-img" />
+
+              <span class="portfolio__preview-btn portfolio__preview-btn--right">
+                <i class="fa-sharp fa-solid fa-chevron-right portfolio__preview-btn-icon"></i>
+              </span>
+              <span class="portfolio__preview-btn portfolio__preview-btn--left">
+                <i class="fa-sharp fa-solid fa-chevron-left portfolio__preview-btn-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="overlay overlay--light"></div>
+          <div class="overlay overlay--dark"></div>
+        </section>
+        <section class="price-plan mb-80" id="price-plan">
+          <h2 class="section__title">Price plans</h2>
+          <div class="price-plan__container">
+            <div class="price-plan__item-box">
+              <h3 class="price-plan__title">Silver</h3>
+              <h2 class="price-plan__number">$ 20.00 <span> /Hour</span></h2>
+              <p class="price-plan__text">For most businesses that want to optimize web queries</p>
+              <ul class="price-plan__list">
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">UI Design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">web development</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-xmark price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">logo design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-xmark price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">seo optimization</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-xmark price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">unlimited user</p>
+                </li>
+              </ul>
+              <button class="price-plan__btn btn">order now</button>
+            </div>
+            <div class="price-plan__item-box price-plan__item-box--cta">
+              <h3 class="price-plan__title">gold</h3>
+              <h2 class="price-plan__number">$ 50.00 <span> /Hour</span></h2>
+              <p class="price-plan__text">For most businesses that want to optimize web queries</p>
+              <ul class="price-plan__list">
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">UI Design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">web development</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">logo design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">seo optimization</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-xmark price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">20 gB bandwith</p>
+                </li>
+              </ul>
+              <button class="price-plan__btn btn price-plan__btn--cta">order now</button>
+            </div>
+            <div class="price-plan__item-box">
+              <h3 class="price-plan__title">diamond</h3>
+              <h2 class="price-plan__number">$ 80.00 <span> /Hour</span></h2>
+              <p class="price-plan__text">For most businesses that want to optimize web queries</p>
+              <ul class="price-plan__list">
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">UI Design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">web development</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">logo design</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">seo optimization</p>
+                </li>
+                <li class="price-plan__item">
+                  <span>
+                    <i class="fa-sharp fa-solid fa-check price-plan__icon"></i>
+                  </span>
+                  <p class="price-plan__feature">20 gB bandwith</p>
+                </li>
+              </ul>
+              <button class="price-plan__btn btn">order now</button>
+            </div>
+          </div>
+        </section>
+        <section class="review">
+          <h2 class="section__title">testimonial</h2>
+          <div class="review__container">
+            <div class="review__slide">
+              <div>
+                <h4 class="review__title">Great Quality!</h4>
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corporis iure doloribus. Itaque, officia nobis placeat repellat a, eum sed libero, vero perspiciatis iste eos quibusdam
+                  velit modi quos Voluptatum?
+                </blockquote>
+              </div>
+              <div class="review__user-box">
+                <div class="review__user-img-box">
+                  <img src="./img/client-1.jpg" alt="user portrait" class="review__user-img" />
+                </div>
+                <div class="review__user-id">
+                  <h4 class="review__user-name">James Smith</h4>
+                  <p class="review__user-job">Graphic Designer</p>
+                  <div class="review__rating">
+                    <span>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review__slide">
+              <div>
+                <h4 class="review__title">Could be better</h4>
+                <blockquote class="review__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque id expedita rem nam at excepturi ea provident. Adipisci beatae eaque pariatur? Nemo quaerat dolore enim porro alias
+                  aliquam quo?
+                </blockquote>
+              </div>
+              <div class="review__user-box">
+                <div class="review__user-img-box">
+                  <img src="./img/client-4.jpg" alt="user portrait" class="review__user-img" />
+                </div>
+                <div class="review__user-id">
+                  <h4 class="review__user-name">Matilda Dawson</h4>
+                  <p class="review__user-job">Architecture</p>
+                  <div class="review__rating">
+                    <span>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-regular fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-regular fa-star-sharp review__rating-star"> </i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review__slide">
+              <div>
+                <h4 class="review__title">Amazing work</h4>
+                <blockquote class="review__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fugiat, soluta neque suscipit, corrupti aperiam, nemo ullam deserunt sunt adipisci eum fuga ex? Ut ullam labore id
+                  minima corrupti!
+                </blockquote>
+              </div>
+              <div class="review__user-box">
+                <div class="review__user-img-box">
+                  <img src="./img/client-2.jpg" alt="user portrait" class="review__user-img" />
+                </div>
+                <div class="review__user-id">
+                  <h4 class="review__user-name">Tiana Philips</h4>
+                  <p class="review__user-job">Photographer</p>
+                  <div class="review__rating">
+                    <span>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review__slide">
+              <div>
+                <h4 class="review__title">well organized</h4>
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, id ratione delectus, corporis blanditiis a quasi laborum veritatis esse saepe facere suscipit reiciendis
+                  nesciunt assumenda?
+                </blockquote>
+              </div>
+              <div class="review__user-box">
+                <div class="review__user-img-box">
+                  <img src="./img/client-3.jpg" alt="user portrait" class="review__user-img" />
+                </div>
+                <div class="review__user-id">
+                  <h4 class="review__user-name">Mike Madison</h4>
+                  <p class="review__user-job">Business man</p>
+                  <div class="review__rating">
+                    <span>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-solid fa-star-sharp review__rating-star"> </i>
+                      <i class="fa-sharp fa-regular fa-star-sharp review__rating-star"> </i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="review__slider-btn review__slider-btn--left">
+            <i class="fa-sharp fa-solid fa-chevron-left review__slider-btn-icon"></i>
+          </button>
+          <button class="review__slider-btn review__slider-btn--right">
+            <i class="fa-sharp fa-solid fa-chevron-right review__slider-btn-icon"></i>
+          </button>
+          <div class="review__slider-dots"></div>
+        </section>
+        <section class="contact mb-40" id="contact">
+          <div class="contact__container">
+            <div class="contact__left-content">
+              <h2 class="contact__heading">Leave us your info</h2>
+              <form action="#" class="contact__form-box">
+                <div class="contact__form-group">
+                  <label for="full name" class="contact__form-label"> Your Full Name ( Required) </label>
+                  <input id="full name" type="text" class="contact__form-input" required />
+                </div>
+                <div class="contact__form-group">
+                  <label for="email" class="contact__form-label"> Your Email ( Required) </label>
+                  <input id="email" type="email" class="contact__form-input" required autocomplete="email" />
+                </div>
+                <div class="contact__form-group">
+                  <label for="subject" class="contact__form-label"> Subject </label>
+                  <input id="subject" type="text" class="contact__form-input" />
+                </div>
+                <div class="contact__form-group">
+                  <label for="message" class="contact__form-label"> Message </label>
+                  <textarea id="message" class="contact__form-input contact__form-textarea"></textarea>
+                </div>
+                <button type="submit" class="contact__form-btn btn">Send message</button>
+              </form>
+            </div>
+            <div class="contact__right-content">
+              <h2 class="contact__heading">Contact information</h2>
+              <div class="contact__info-box">
+                <div class="contact__info-group">
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-fw fa-map-location-dot contact__info-icon"> </i>
+                    </span>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Country:</h4>
+                    <p>Iran</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>City:</h4>
+                    <p>Mashhad</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Streat:</h4>
+                    <p>35 shahed, Azadi</p>
+                  </div>
+                </div>
+                <div class="contact__info-group">
+                  <div>
+                    <span>
+                      <i class="fa-sharp fa-fw fa-solid fa-envelope contact__info-icon"> </i>
+                    </span>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Email:</h4>
+                    <p>Yourmail@gmail.com</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Skype:</h4>
+                    <p>@Yourname</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Telegram:</h4>
+                    <p>@kiyan_1991</p>
+                  </div>
+                </div>
+                <div class="contact__info-group">
+                  <div>
+                    <span>
+                      <i class="fa-solid fa-fw fa-mobile-button contact__info-icon"> </i>
+                    </span>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Support:</h4>
+                    <p>15369</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Office:</h4>
+                    <p>+98 (021)356 235</p>
+                  </div>
+                  <div class="contact__info-detail">
+                    <h4>Personal:</h4>
+                    <p>+98 (021)765 243</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="companies mb-40">
+          <div class="companies__container">
+            <img src="./img/logos/logo3.png" alt="company's logo" class="companies__logo" />
+            <img src="./img/logos/logo2.png" alt="company's logo" class="companies__logo" />
+            <img src="./img/logos/logo4.png" alt="company's logo" class="companies__logo" />
+            <img src="./img/logos/logo1.png" alt="company's logo" class="companies__logo" />
+          </div>
+        </section>
+        <footer class="footer bd-radius">
+          <p>&copy; 2024 All Rights Reserved</p>
+        </footer>
+      </main>
+      <nav class="side-nav bd-radius">
+        <div class="side-nav__container">
+          <div class="theme-switcher side-nav__item">
+            <span class="side-nav__tooltip">Theme</span>
+            <span>
+              <i class="fa-solid fa-fw fa-sun-bright theme-switcher__icon"></i>
+            </span>
+            <span>
+              <i class="fa-sharp fa-fw fa-solid fa-moon theme-switcher__icon"></i>
+            </span>
+          </div>
+          <ul class="side-nav__list">
+            <li class="side-nav__item">
+              <span class="side-nav__tooltip">Home</span>
+              <a href="#" class="side-nav__link">
+                <i class="fa-sharp fa-solid fa-house-chimney side-nav__link-icon"> </i>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <span class="side-nav__tooltip">Service</span>
+              <a href="#service" class="side-nav__link">
+                <i class="fa-solid fa-file-code side-nav__link-icon"></i>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <span class="side-nav__tooltip">Portfolio</span>
+              <a href="#portfolio" class="side-nav__link">
+                <i class="fa-solid fa-briefcase side-nav__link-icon"></i>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <span class="side-nav__tooltip">Prices</span>
+              <a href="#price-plan" class="side-nav__link">
+                <i class="fa-solid fa-cart-shopping side-nav__link-icon"></i>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <span class="side-nav__tooltip">Contact</span>
+              <a href="#contact" class="side-nav__link">
+                <i class="fa-solid fa-message-question side-nav__link-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

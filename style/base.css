@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #ffb400;
+  --color-primary-light: #ffc848;
+  --color-black: #111;
+  --color-green: #7eb942;
+  --border-radius: 0.4rem;
+  --transition: all 0.3s ease;
+  --box-shadow: 0 0rem 0.8rem rgb(0, 0, 0);
+}
+
+:root[data-theme=light] {
+  --page-bg: #f0f0f6;
+  --section-bg: #fff;
+  --color-title: #2b2b2b;
+  --color-text: #767676;
+  --switch-pos: -0.6rem;
+  --switch-bg-active: var(--color-primary);
+  --main-nav-color: var(--page-bg);
+  --filter-img: brightness(70%);
+}
+
+:root[data-theme=dark] {
+  --page-bg: #3c3a47;
+  --section-bg: #131516;
+  --color-title: #f5f5f6;
+  --color-text: #bdbdbd;
+  --switch-pos: 3.4rem;
+  --switch-bg-active: #7190ff;
+  --main-nav-color: var(--section-bg);
+  --filter-img: brightness(180%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) transparent;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--page-bg);
+  color: var(--color-text);
+}
+
+*::-moz-selection {
+  background-color: transparent;
+}
+
+*::selection {
+  background-color: transparent;
+}/*# sourceMappingURL=base.css.map */
